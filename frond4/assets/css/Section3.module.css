@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap");
+.main {
+  background-image: linear-gradient(45deg, rgba(246, 70, 61, 0.6) 0%, rgba(246, 57, 141, 0.6) 45%, rgba(245, 44, 220, 0.6) 100%), url("https://preview.colorlib.com/theme/shop/img/men-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  height: 600px;
+  margin-top: 70px;
+  margin-bottom: 50px;
+}
+.main .container .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  flex-direction: column;
+  font-family: "Poppins", sans-serif;
+  padding-top: 30px;
+}
+.main .container .text p {
+  font-size: 27px;
+  font-weight: bold;
+}
+.main .container .text span {
+  font-size: 12px;
+}
+.main .data {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  gap: 20px;
+}
+.main .data .card {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.main .data .card .cardText {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 10px;
+  color: white;
+  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+}
+.main .data .card .cardText p {
+  font-size: 12px;
+}
+.main .data .card .cardText span {
+  font-size: 20px;
+  margin-top: 10px;
+}
