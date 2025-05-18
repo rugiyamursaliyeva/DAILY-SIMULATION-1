@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../header/Header.module.scss'
+import { FaBars } from "react-icons/fa6";
 import { Link } from 'react-router'
 
 const Header = () => {
@@ -27,9 +28,11 @@ const Header = () => {
           <Link to={'/category'}>CATEGORY</Link>
           <Link to={'/men'}>MEN</Link>
           <Link to={'/women'}>WOMEN</Link>
-          <Link to={'/latest'}>LATEST</Link>
-          <Link to={'/pages'}>PAGES</Link>
+          <Link to={'/wish'}>WISHLIST</Link>
+          <Link to={'/basket'}>BASKET</Link>
+          <Link to={'/admin'}>ADMIN</Link>
         </div>
+        <FaBars  className={styles.bars}/>
 
       </div>
 

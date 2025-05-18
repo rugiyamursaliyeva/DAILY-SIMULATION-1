@@ -27,8 +27,9 @@
             flex-wrap: wrap;
             justify-content: center;
             align-items: center;
-            width: 55%;
-            gap: 15px;
+            padding: 20px 20px;
+            width: 50%;
+            gap: 25px;
             .card{
                 display: flex;
                 .cardText{
@@ -44,3 +45,18 @@
         }
     }
 }        
+
+@media screen and (min-width: 300px) and (max-width: 567px) {
+    .main{
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            span{
+                font-size: 10px;
+            }
+        }
+    }
+    
+}

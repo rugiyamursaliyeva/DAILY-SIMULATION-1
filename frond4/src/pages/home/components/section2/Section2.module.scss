@@ -22,3 +22,45 @@
         align-items: center;
     }
 }
+@media screen and (min-width: 300px) and (max-width: 567px){
+    .main{
+        .text{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            span{
+                font-size: 10px;
+            }
+        }
+        .container{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                width: 200px;
+                height: 220px;
+            }
+            .images{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+             img{
+                width: 200px;
+                height: 80px;
+            }
+            .one{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+             img{
+                width: 200px;
+                height: 130px;
+            }
+            }
+            }
+            
+        }
+    }
+    
+}
